@@ -11,7 +11,7 @@ export class CommunicationService {
   //WINDOWPOST API
   setWindowPost(obj){
     const _window = window;
-    _window.postMessage(obj, 'http://localhost:4200/');
+    _window.postMessage(obj, 'https://raishavhanspal.github.io/');
   }
   getWindowPost(){
     //works when tabs are open; doesn't work on new tabs.
